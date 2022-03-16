@@ -31,7 +31,7 @@
 
 				if(isset($_SESSION['userUid']))
 				{
-					echo'<form action="logout.inc.php" method="post">
+					echo'<form action="loginPage/logout.inc.php" method="post">
 						 <button class="logout" type="submit" name="logout-submit">Logout</button>
 						 </form>';
 
@@ -42,7 +42,7 @@
 					?>
 					<div class="box1">
 					<?php
-					echo '<form action="login.inc.php" method="post">
+					echo '<form action="loginPage/login.inc.php" method="post">
 						 <input class="xuser" type="text" name="mailuid" placeholder="Username/E-mail">
 						 <input class="xpass" type="password" name="pwd" placeholder="Password">
 						 <button class="submit5" type="submit" name="login-submit">Login</button>

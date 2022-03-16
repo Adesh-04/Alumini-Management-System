@@ -45,7 +45,7 @@
 						$_SESSION['userId'] = $row['idUsers'];
 						$_SESSION['userUid'] = $row['uidUsers'];
 
-						header("Location: ../index.php?login=success");
+						header("Location: ../includes/index.php?login=success");
 						exit();
 					}
 
