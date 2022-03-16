@@ -16,7 +16,7 @@
   10. now go to the XAMPP folder on the installed drive.
   11. go to XAMPP/htdocs.
   12. create a folder named Alumini
-  13. add repository into that folder by using git clone 
+  13. add repository into that folder by using git clone https://github.com/Adesh-04/Alumini-Management-System.git
   14. now open Google Chrome and type into the address bar localhost/Alumini/index.php 
   
 # Tech-stack :
